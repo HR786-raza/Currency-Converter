@@ -1,0 +1,104 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-image: url('../Images/Currency1.jpg');
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.converter {
+    background: rgba(247, 242, 242, 0.6);
+    padding: 32px;
+    border-radius: 12px;
+    margin: 0px 400px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 450px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #000000;
+    font-size: 40px;
+}
+
+.form-group {
+    margin-bottom: 16px;
+    max-width: 430px;
+}
+
+.input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+}
+
+.dropdowns {
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin: 0px 400px 16px 100px;
+}
+
+.btn {
+    max-width: 250px;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+}
+
+.swap {
+    background-color: transparent;
+    border: 2px solid #2a2c2c;
+    color: #161818;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+.swap:hover {
+    background: #00e0ff;
+    color: #000;
+    box-shadow: 0 0 15px #00e0ff;
+}
+
+.result {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #222424;
+}
+
+.btn-a {
+    background-color: #1d2020;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin: 20px 0px 0px 550px;
+}
+
+.btn-a a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+
+.btn-a:hover {
+    background-color: #19191a;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 188, 212, 0.5);
+}
